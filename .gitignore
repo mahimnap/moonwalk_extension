@@ -1,0 +1,9 @@
+node_modules
+.DS_Store
+android/
+ios/Pods
+ios/moonwalk.xcodeproj/
+ios/moonwalk.xcworkspace/
+ios/moonwalk.xcodeproj/project.pbxproj
+yarn.lock
+ios/Podfile.lock

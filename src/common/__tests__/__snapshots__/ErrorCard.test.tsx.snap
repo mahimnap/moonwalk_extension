@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorCard renders correctly with a custom message 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "borderRadius": 10,
+      "marginBottom": 40,
+      "marginLeft": 40,
+      "marginRight": 40,
+      "marginTop": 40,
+      "opacity": 0,
+      "paddingBottom": 20,
+      "paddingLeft": 20,
+      "paddingRight": 20,
+      "paddingTop": 20,
+      "transform": Array [
+        Object {
+          "translateY": 80,
+        },
+      ],
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+      ]
+    }
+  >
+    <Icon
+      color="#000"
+      name="Alert"
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#000",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "marginLeft": 10,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      Error
+    </Text>
+  </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#000",
+          "marginBottom": 10,
+          "marginLeft": 10,
+          "marginRight": 10,
+          "marginTop": 10,
+          "textAlign": "center",
+        },
+      ]
+    }
+  >
+    $_MESSAGE_TEXT_$
+  </Text>
+  <View
+    accessibilityRole="button"
+    accessibilityState={Object {}}
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#007AFF",
+              "fontSize": 18,
+              "margin": 8,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Try again
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`ErrorCard renders correctly with a default message 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "borderRadius": 10,
+      "marginBottom": 40,
+      "marginLeft": 40,
+      "marginRight": 40,
+      "marginTop": 40,
+      "opacity": 0,
+      "paddingBottom": 20,
+      "paddingLeft": 20,
+      "paddingRight": 20,
+      "paddingTop": 20,
+      "transform": Array [
+        Object {
+          "translateY": 80,
+        },
+      ],
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+      ]
+    }
+  >
+    <Icon
+      color="#000"
+      name="Alert"
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#000",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "marginLeft": 10,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      Error
+    </Text>
+  </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#000",
+          "marginBottom": 10,
+          "marginLeft": 10,
+          "marginRight": 10,
+          "marginTop": 10,
+          "textAlign": "center",
+        },
+      ]
+    }
+  >
+    Something went wrong
+  </Text>
+  <View
+    accessibilityRole="button"
+    accessibilityState={Object {}}
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#007AFF",
+              "fontSize": 18,
+              "margin": 8,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Try again
+      </Text>
+    </View>
+  </View>
+</View>
+`;

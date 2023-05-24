@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BigTitle renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingBottom": 10,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 10,
+        "width": "100%",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#000",
+          "fontSize": 22,
+          "fontWeight": "bold",
+        },
+      ]
+    }
+  >
+    $_TITLE_TEXT_$
+  </Text>
+</View>
+`;
+
+exports[`BigTitle renders correctly with the See More option 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingBottom": 10,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 10,
+        "width": "100%",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#000",
+          "fontSize": 22,
+          "fontWeight": "bold",
+        },
+      ]
+    }
+  >
+    $_TITLE_TEXT_$
+  </Text>
+</View>
+`;
